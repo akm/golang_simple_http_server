@@ -7,7 +7,7 @@
 #    docker compose up
 
 version: "3.7"
-name: "corvo_test_containers"
+name: "test_containers"
 services:
   httpsrv:
     build: .
