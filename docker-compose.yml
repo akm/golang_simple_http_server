@@ -1,0 +1,15 @@
+# Start as daeemon:
+#    docker compose up -d
+# Stop daeemon:
+#    docker compose down
+#
+# Start on foreground:
+#    docker compose up
+
+version: "3.7"
+name: "corvo_test_containers"
+services:
+  httpsrv:
+    build: .
+    ports:
+      - "8080:8080"
